@@ -1,0 +1,104 @@
+/* Footer Styles */
+.footer {
+    background-color: brown;
+    color: white;
+    padding: 40px 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+  }
+  
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .footer-left h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-left ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-left ul li {
+    font-size: 1rem;
+  }
+  
+  .footer-logo {
+    max-width: 200px;
+    margin-top: 20px;
+  }
+  
+  .footer-right .footer-links h4,
+  .footer-right .footer-newsletter h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-right .footer-links ul,
+  .footer-right .footer-newsletter ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-right .footer-links ul li,
+  .footer-right .footer-newsletter ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-right .footer-links ul li a,
+  .footer-right .footer-newsletter button {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .footer-right .footer-links ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-newsletter input {
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 60%;
+  }
+  
+  .footer-newsletter button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: ;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .footer-newsletter button:hover {
+    background-color: salmon;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1rem;
+    color: salmon;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  

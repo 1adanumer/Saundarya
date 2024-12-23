@@ -1,0 +1,94 @@
+/* General Container */
+.media-coverages-container {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  /* Media Coverages Section */
+  .media-coverages {
+    position: relative;
+    margin-bottom: 50px;
+  }
+  
+  .media-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    color: brown;
+  }
+  
+  .media-icon {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .media-image-container {
+    position: relative;
+  }
+  
+  .media-background {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Video Testimonials Section */
+  .video-testimonials {
+    text-align: center;
+  }
+  
+  .testimonial-slider {
+    display: flex;
+    overflow: visible;
+    position: relative;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+  }
+  
+  .testimonial-slider:hover {
+    animation-play-state: paused; /* Pause on hover */
+  }
+  
+  .testimonial {
+    flex: 0 0 25%; /* Display 4 items at a time */
+    max-width: 25%;
+    cursor: pointer;
+  }
+  
+  .testimonial-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Sliding Animation */
+  .testimonial-slider {
+    display: flex;
+    animation: slide-infinite 20s linear infinite;
+  }
+  
+  @keyframes slide-infinite {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Duplicate content for infinite loop effect */
+  .testimonial-slider:after {
+    content: "";
+    display: block;
+  }
+  
