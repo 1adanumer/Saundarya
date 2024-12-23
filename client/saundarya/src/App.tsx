@@ -1,26 +1,30 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import AnnouncementBar from './assets/components/AnnouncementBar/AnnouncementBar'
-import Navbar from './assets/components/Navbar/Navbar'
-import Hero from './assets/components/Hero/Hero'
-import Works from './assets/components/Works/Works'
-import Media from './assets/components/Media/Media'
-import Brands from './assets/components/Brands/Brands'
-import GetApp from './assets/components/GetApp/GetApp'
-import Footer from './assets/components/Footer/Footer'
+import Navbar from "./assets/components/Navbar/Navbar";
+import Footer from "./assets/components/Footer/Footer";  
+import Home from "./assets/pages/Home/Home";
+import AnnouncementBar from "./assets/components/AnnouncementBar/AnnouncementBar";
+
 
 const App = () => {
   return (
-    <div>
-      <AnnouncementBar />
-      <Navbar />
-      <Hero />
-      <Works  />
-      <Media/>
-      <Brands />
-      <GetApp />
-      <Footer />
-    </div>
-  )
-}
+    <Router>
+            {/* Add persistent components like Header */}
+            <AnnouncementBar  />
+            <Navbar />
 
-export default App
+            {/* Define routes for each page */}
+            <Routes>
+                <Route path="/" element={<Home />} />
+                
+                
+            
+            </Routes>
+
+            {/* Add Footer */}
+            <Footer />
+        </Router>
+  );
+};
+
+export default App;
