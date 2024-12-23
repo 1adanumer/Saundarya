@@ -1,4 +1,4 @@
-import React from 'react'
+
 import AnnouncementBar from './assets/components/AnnouncementBar/AnnouncementBar'
 import Navbar from './assets/components/Navbar/Navbar'
 import Hero from './assets/components/Hero/Hero'
