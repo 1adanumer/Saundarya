@@ -65,7 +65,7 @@
   
   .toggle-line {
     font-size: 1.5rem;
-    color: black;
+    color: white;
     cursor: pointer;
     text-align: left; /* Align text to the left */
     margin-left: 0; /* Ensure no left margin */
