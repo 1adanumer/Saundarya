@@ -2,7 +2,6 @@ import React from 'react'
 import AnnouncementBar from './assets/components/AnnouncementBar/AnnouncementBar'
 import Navbar from './assets/components/Navbar/Navbar'
 import Hero from './assets/components/Hero/Hero'
-import Banner from './assets/components/Banner/Banner'
 import Works from './assets/components/Works/Works'
 import Media from './assets/components/Media/Media'
 import Brands from './assets/components/Brands/Brands'
@@ -15,7 +14,6 @@ const App = () => {
       <AnnouncementBar />
       <Navbar />
       <Hero />
-      <Banner />
       <Works  />
       <Media/>
       <Brands />
