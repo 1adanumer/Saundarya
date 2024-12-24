@@ -46,9 +46,12 @@
     display: flex;
     gap: 15px;
     margin-bottom: 20px;
-  }
-  
-  .app-button {
+    justify-content: center; /* Center align the buttons horizontally */
+    align-items: center; /* Center align the buttons vertically */
+    width: 100%; /* Ensure the container takes full width */
+}
+
+.app-button {
     display: inline-block;
     padding: 10px 20px;
     font-size: 1rem;
@@ -57,8 +60,7 @@
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-  }
-  
+}
   .app-button:hover {
     background-color: brown;
   }
@@ -67,7 +69,7 @@
     font-size: 1.5rem;
     color: white;
     cursor: pointer;
-    text-align: left; /* Align text to the left */
+    text-align: center; /* Align text to the left */
     margin-left: 0; /* Ensure no left margin */
     padding-left: 0; /* Ensure no left padding */
 }
@@ -76,10 +78,11 @@
     position: absolute; /* Position it absolutely */
     top: 0; /* Adjust as needed */
     left: 0; /* Adjust as needed */
-    margin-top: 220px;
+    margin-top: 240px;
+
     padding: 15px;
     text-align: left;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    background-color: brown; /* Semi-transparent background */
     border-radius: 5px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000; /* Ensure it appears above other elements */
@@ -87,6 +90,6 @@
   
   .description p {
     font-size: 1rem;
-    color: #333;
+    color: #fff;
   }
   
