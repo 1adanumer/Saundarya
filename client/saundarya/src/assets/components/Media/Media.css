@@ -1,46 +1,64 @@
 /* General Container */
 .media-coverages-container {
     font-family: 'Poppins', sans-serif;
-    padding: 20px;
-    background-color: #f8f9fa;
-  }
+    
+}
   
-  /* Media Coverages Section */
-  .media-coverages {
+/* Media Coverages Section */
+.media-coverages {
     position: relative;
     margin-bottom: 50px;
-  }
+    padding: 0 80px; /* Padding of 40px from both left and right sides */
+    background-color: brown;
+}
   
-  .media-header {
+.media-header {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-  }
+}
   
-  .section-title {
+.media-coverages .section-title {
+    padding-top: 10px;
     font-size: 2rem;
-    color: brown;
-  }
+    color: #fff;
+}
   
-  .media-icon {
+.media-icon {
     font-size: 2rem;
     color: #333;
-  }
+}
   
-  .media-image-container {
+.media-image-container {
     position: relative;
-  }
+}
   
-  .media-background {
+.media-background {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  }
+    
+}
   
-  /* Video Testimonials Section */
-  .video-testimonials {
+/* Media Images Grid */
+.media-images-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+.media-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+/* Video Testimonials Section */
+.video-testimonials {
     text-align: center;
   }
   

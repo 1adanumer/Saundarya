@@ -1,46 +1,47 @@
 /* AnnouncementBar.css */
 
 .announcement-bar {
-    width: 100%; /* Full width of the viewport */
-    position: fixed; /* Fixed to the top */
-    top: 0; /* Align to the top */
-    left: 0; /* Align to the left */
-    z-index: 1000; /* Ensure it stays above other elements */
-    background-color: #f8f9fa; /* Light background color */
-    color: #333; /* Neutral text color */
-    padding: 10px 20px; /* Padding for spacing */
-    font-size: 14px;
-    border-bottom: 1px solid #ddd;
-    display: flex; /* Flexbox for alignment */
-    justify-content: space-between; /* Space between left and right content */
-    align-items: center; /* Center vertically */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
-  }
-  
-  .announcement-left {
-    display: flex;
-    align-items: center;
-    padding-left: 40px;
-    gap: 10px; /* Space between items */
-  }
-  
-  .announcement-left .icon {
-    font-size: 16px;
-    color: #555; /* Icon color */
-  }
-  
-  .announcement-right {
-    font-weight: 500;
-    padding-right: 40px;
-    color: #007bff; /* Highlight text color */
-  }
-  
-  .announcement-bar span {
-    margin-left: 5px;
-  }
-  
-  /* Add margin to body to prevent overlap with the navbar */
-  body {
-    margin-top: 50px; /* Adjust to the navbar height */
-  }
-  
+  width: 100%; /* Full width of the viewport */
+  position: fixed; /* Fixed to the top */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  z-index: 1000; /* Ensure it stays above other elements */
+  background-color: brown; /* Light background color */
+  color: #fff; /* Neutral text color */
+  padding: 10px 20px; /* Padding for spacing */
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+  display: flex; /* Flexbox for alignment */
+  justify-content: space-between; /* Space between left and right content */
+  align-items: center; /* Center vertically */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+}
+
+.announcement-left {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  gap: 10px; /* Space between items */
+}
+
+.announcement-left .icon {
+  font-size: 16px;
+  color: #fff; /* Icon color */
+}
+
+.announcement-right {
+  position: relative;
+  overflow: hidden;
+  height: 20px; /* Adjust based on your content */
+  font-weight: 400;
+  padding-right: 40px;
+  color: #f9f9f9; /* Highlight text color */
+}
+
+
+
+
+/* Add margin to body to prevent overlap with the navbar */
+body {
+  margin-top: 60px; /* Adjust to the navbar height */
+}

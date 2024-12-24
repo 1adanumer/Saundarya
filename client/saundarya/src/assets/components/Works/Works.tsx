@@ -5,31 +5,7 @@ import { FaUsers, FaTrophy, FaClock, FaUserGraduate } from "react-icons/fa";
 const Works: React.FC = () => {
   return (
     <div className="container">
-      {/* How It Works Section */}
-      <section className="how-it-works">
-        <h2 className="section-title">How It Works</h2>
-        <div className="steps-container">
-          <div className="step">
-            <div className="step-icon">💡
-            </div>
-
-            <p>Find Areawise vendors</p>
-          </div>
-          <div className="step">
-            <div className="step-icon">📝</div>
-            <p>Check Works & Reviews</p>
-          </div>
-          <div className="step">
-            <div className="step-icon">📚</div>
-            <p>Book Dates</p>
-          </div>
-          <div className="step">
-            <div className="step-icon">🎓</div>
-            
-            <p>Enjoy Treatment</p>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Our Achievements Section */}
       <section className="our-achievements">
@@ -53,7 +29,7 @@ const Works: React.FC = () => {
           <div className="achievement">
             <FaUserGraduate className="achievement-icon" />
             <h3>5k+</h3>
-            <p>Graduates</p>
+            <p>Members in Team</p>
           </div>
         </div>
       </section>

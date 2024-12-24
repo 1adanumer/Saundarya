@@ -12,7 +12,7 @@ const AnnouncementBar: React.FC = () => {
         <span>info@example.com</span>
       </div>
       <div className="announcement-right">
-        <span>Get free bookings on website with $699</span>
+        <span>Get free gifts on booking above $999</span>
       </div>
     </div>
   );

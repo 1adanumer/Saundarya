@@ -1,6 +1,7 @@
 body,html{
   overflow-x: hidden;
   color: brown;
+  font-family: Croissant One, sans-serif;
 }
 :root{
   color: brown;

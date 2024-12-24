@@ -5,23 +5,23 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-  }
-  
-  /* Video Background */
-  .video-container {
+}
+
+/* Video Background */
+.video-container {
     position: relative;
     width: 100%;
-    height: 130vh; /* Adjust height as needed */
+    height: 100vh; /* Adjust height as needed */
     overflow: hidden;
-  }
-  
-  .background-video {
+}
+
+.background-video {
     width: 100%;
     height: 100%;
     object-fit: cover; /* Ensure the video covers the container */
-  }
-  
-  .video-overlay {
+}
+
+.video-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -29,100 +29,97 @@ body, html {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for text readability */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
-  }
-  
-  .hero-heading {
-    font-size: 3rem;
     text-align: center;
-  }
-  
-  /* Why Choose Section */
-  .why-choose-section {
+}
+
+.hero-heading {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-subheading {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e91e63;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #d81b60;
+}
+
+/* Why Choose Section */
+.why-choose-section {
     padding: 50px 20px;
     text-align: center;
     background-color: #f9f9f9;
-  }
-  
-  .why-choose-heading {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: black;
-  }
-  
-  .why-choose-paragraph {
+}
+
+.why-choose-heading {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: brown;
+}
+
+.why-choose-paragraph {
     font-size: 1.2rem;
-    margin-bottom: 40px;
+    margin-bottom: 2rem;
     color: #555;
-  }
-  
-  /* Points Section */
-  .points-section {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Points Section */
+.points-section {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 40px;
-    flex-wrap: wrap; /* Responsive layout for smaller screens */
-    position: relative;
-    background-color: #f9f9f9;
-  }
-  
-  .center-image {
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid #ddd;
-  }
-  
-  .points-container {
-    display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 20px;
-  }
-  
-  .point {
-    position: relative;
-    font-size: 1.7rem;
-    font-weight: bold;
-    
-    padding: 10px 20px;
-    border-radius: 20px;
-    
-    width: 200px;
+}
+
+.points-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.point-image {
+    width: 650px; /* Adjust width as needed */
+    height: 400px; /* Adjust height as needed */
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.point-image :hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.point {
     text-align: center;
-  }
-  
-  .point-left {
-    align-self: flex-end; /* Align left points */
+}
+.point :hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.point p {
+    font-size: 1.3rem;
     color: brown;
-  }
-  
-  .point-right {
-    align-self: flex-start; /* Align right points */
-    color: brown;
-  }
-  
-  .arrow {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: #000000;
-    transform: rotate(45deg);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .point-left .arrow {
-    top: 50%;
-    right: -10px;
-    transform: translateY(-50%) rotate(45deg);
-  }
-  
-  .point-right .arrow {
-    top: 50%;
-    left: -10px;
-    transform: translateY(-50%) rotate(45deg);
-  }
-  
+}
