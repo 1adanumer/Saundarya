@@ -4,7 +4,7 @@ import "./Media.css";
 const testimonials = [
   {
     id: 1,
-    image : "https://www.yesmadam.com/_next/image?url=https%3A%2F%2Fcdn.yesmadam.com%2Fimages%2Flive%2Fapp%2Fbanner%2FShivangi-Joshi.png&w=384&q=75",
+    image : "https://www.yesmadam.com/_next/image?url=https%3A%2F%2Fcdn.yesmadam.com%2Fimages%2Flive%2Fapp%2Fbanner%2FKavita-Kaushik.png&w=384&q=75",
     videoLink: "https://www.youtube.com/watch?v=example1",
   },
   {
