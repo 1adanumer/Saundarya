@@ -1,0 +1,89 @@
+.testimonials-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .testimonials-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .testimonials-slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  
+  .slider-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .testimonial-card {
+    flex: 0 0 300px; /* Fixed width for each slide */
+    margin: 0 1rem;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .testimonial-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    object-fit: cover;
+  }
+  
+  .testimonial-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  .rating {
+    color: #ffc107;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial-card p {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.4;
+  }
+  
+  .arrow-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    background: brown;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    z-index: 10;
+  }
+  
+  .arrow-button.left {
+    left: 10px;
+  }
+  
+  .arrow-button.right {
+    right: 10px;
+  }
+  
+  .arrow-button:hover {
+    background-color: #000;
+  }
+  

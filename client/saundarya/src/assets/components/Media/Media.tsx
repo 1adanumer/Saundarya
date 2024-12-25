@@ -9,7 +9,7 @@ const testimonials = [
   },
   {
     id: 2,
-    image: "https://www.yesmadam.com/_next/image?url=https%3A%2F%2Fcdn.yesmadam.com%2Fimages%2Flive%2Fapp%2Fbanner%2FShraddha-Kapoor-20-9-24.jpg&w=384&q=75",
+    image: "https://www.yesmadam.com/_next/image?url=https%3A%2F%2Fcdn.yesmadam.com%2Fimages%2Flive%2Fapp%2Fbanner%2FShilpa-Shetty.png&w=384&q=75",
     videoLink: "https://www.youtube.com/watch?v=example2",
   },
   {
@@ -29,7 +29,7 @@ const testimonials = [
   },
   {
     id: 6,
-    image: "https://www.yesmadam.com/_next/image?url=https%3A%2F%2Fcdn.yesmadam.com%2Fimages%2Flive%2Fapp%2Fbanner%2FShraddha-Kapoor-20-9-24.jpg&w=384&q=75",
+    image: "https://www.yesmadam.com/_next/image?url=https%3A%2F%2Fcdn.yesmadam.com%2Fimages%2Flive%2Fapp%2Fbanner%2FShilpa-Shetty.png&w=384&q=75",
     videoLink: "https://www.youtube.com/watch?v=example6",
   },
   {
@@ -39,7 +39,7 @@ const testimonials = [
   },
   {
     id: 8,
-    image: "https://www.yesmadam.com/_next/image?url=https%3A%2F%2Fcdn.yesmadam.com%2Fimages%2Flive%2Fapp%2Fbanner%2FShraddha-Kapoor-20-9-24.jpg&w=384&q=75",
+    image: "https://www.yesmadam.com/_next/image?url=https%3A%2F%2Fcdn.yesmadam.com%2Fimages%2Flive%2Fapp%2Fbanner%2FShilpa-Shetty.png&w=384&q=75",
     videoLink: "https://www.youtube.com/watch?v=example8",
   },
 ];

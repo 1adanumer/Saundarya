@@ -4,7 +4,7 @@ import Works from '../../components/Works/Works';
 import Media from '../../components/Media/Media';
 import Brands from '../../components/Brands/Brands';
 import GetApp from '../../components/GetApp/GetApp';
-
+import Testimonials from '../../components/Testimonials/Testimonials';
 
 
 const Home = () => {
@@ -14,6 +14,7 @@ const Home = () => {
       <Hero />
       <Works  />
       <Media/>
+      <Testimonials />
       <Brands />
       <GetApp />
      
