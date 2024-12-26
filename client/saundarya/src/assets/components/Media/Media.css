@@ -7,7 +7,7 @@
 /* Media Coverages Section */
 .media-coverages {
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     padding: 0 80px; /* Padding of 40px from both left and right sides */
     background-color: brown;
 }
@@ -20,16 +20,12 @@
 }
   
 .media-coverages .section-title {
-    padding-top: 10px;
-    font-size: 2rem;
+    padding-top: 20px;
+    font-size: 3rem;
     color: #fff;
 }
   
-.media-icon {
-    font-size: 2rem;
-    color: #333;
-}
-  
+
 .media-image-container {
     position: relative;
 }
@@ -60,6 +56,14 @@
 /* Video Testimonials Section */
 .video-testimonials {
     text-align: center;
+    padding-top:20px;
+    font-size: 3rem;
+  }
+  .video-testimonials .section-title {
+    padding-top: 0px;
+    font-size: 3rem;
+    padding-bottom: 20px;
+    color: brown;
   }
   
   .testimonial-slider {

@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
           Your browser does not support the video tag.
         </video>
         <div className="video-overlay">
-          <h1 className="hero-heading">Welcome to Saundarya Beauty Studio</h1>
+          <h1 className="hero-heading"></h1>
           
         </div>
       </div>

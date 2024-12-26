@@ -13,6 +13,7 @@ const AnnouncementBar: React.FC = () => {
       </div>
       <div className="announcement-right">
         <span>Get free gifts on booking above $999</span>
+        <span>Upto 30% off on first order on New Year</span>
       </div>
     </div>
   );

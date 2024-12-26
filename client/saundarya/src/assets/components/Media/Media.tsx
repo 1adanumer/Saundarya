@@ -24,7 +24,7 @@ const testimonials = [
   },
   {
     id: 5,
-    image: "https://www.yesmadam.com/_next/image?url=https%3A%2F%2Fcdn.yesmadam.com%2Fimages%2Flive%2Fapp%2Fbanner%2FHina-Khan.png&w=384&q=75",
+    image: "https://www.yesmadam.com/_next/image?url=https%3A%2F%2Fcdn.yesmadam.com%2Fimages%2Flive%2Fapp%2Fbanner%2FShilpa-Shetty.png&w=384&q=75",
     videoLink: "https://www.youtube.com/watch?v=example5",
   },
   {
@@ -61,7 +61,7 @@ const MediaCoverages: React.FC = () => {
       <section className="media-coverages">
         <div className="media-header">
           <h2 className="section-title">Media Coverages</h2>
-          <span className="media-icon">📺</span>
+          
         </div>
         
         <div className="media-images-grid">

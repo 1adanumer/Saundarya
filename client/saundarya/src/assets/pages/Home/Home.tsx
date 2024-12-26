@@ -5,7 +5,7 @@ import Media from '../../components/Media/Media';
 import Brands from '../../components/Brands/Brands';
 import GetApp from '../../components/GetApp/GetApp';
 import Testimonials from '../../components/Testimonials/Testimonials';
-
+import AchievementsAndServices from '../../components/AchievementsAndServices/AchievementsAndServices';
 
 const Home = () => {
   return (
@@ -13,6 +13,7 @@ const Home = () => {
      
       <Hero />
       <Works  />
+      <AchievementsAndServices />
       <Media/>
       <Testimonials />
       <Brands />

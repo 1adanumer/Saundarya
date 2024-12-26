@@ -37,9 +37,10 @@
   }
   
   /* Text Section */
-  .app-text h2 {
+  .get-app .app-text h2 {
     font-size: 2.6rem;
     margin-bottom: 20px;
+    color: #fff;
   }
   
   .buttons {

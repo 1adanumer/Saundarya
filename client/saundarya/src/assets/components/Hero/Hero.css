@@ -63,13 +63,14 @@ body, html {
 
 /* Why Choose Section */
 .why-choose-section {
-    padding: 50px 20px;
+    padding-top: 20px;
     text-align: center;
     background-color: #f9f9f9;
+    
 }
 
 .why-choose-heading {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
     color: brown;
 }
@@ -81,6 +82,7 @@ body, html {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 20px;
 }
 
 /* Points Section */
@@ -100,7 +102,7 @@ body, html {
 
 
 .point-image {
-    width: 650px; /* Adjust width as needed */
+    width: 600px; /* Adjust width as needed */
     height: 400px; /* Adjust height as needed */
     border-radius: 10px;
     margin-bottom: 10px;
@@ -116,7 +118,6 @@ body, html {
 }
 .point :hover {
     cursor: pointer;
-    transform: scale(1.02);
 }
 
 .point p {
