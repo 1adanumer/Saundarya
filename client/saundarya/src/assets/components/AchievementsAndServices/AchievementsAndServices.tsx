@@ -14,7 +14,7 @@ const AchievementsAndServices: React.FC = () => {
               alt="Achievement 1"
               className="achievement-img"
             />
-            <h3>3000+ Professionals</h3>
+            <h3>1M+ App Downloads</h3>
             <p>
               {/* Add achievement description here */}
             </p>
@@ -25,7 +25,7 @@ const AchievementsAndServices: React.FC = () => {
               alt="Achievement 2"
               className="achievement-img"
             />
-            <h3>1M+ App Download</h3>
+            <h3>2M+ Bookings Completed</h3>
             <p>
               {/* Add achievement description here */}
             </p>
@@ -36,7 +36,7 @@ const AchievementsAndServices: React.FC = () => {
               alt="Achievement 3"
               className="achievement-img"
             />
-            <h3>2M+ Bookings Completed</h3>
+            <h3>20+ Cities in India</h3>
             <p>
               {/* Add achievement description here */}
             </p>
@@ -47,7 +47,7 @@ const AchievementsAndServices: React.FC = () => {
               alt="Achievement 4"
               className="achievement-img"
             />
-            <h3>20+ Cities in India</h3>
+            <h3>4.5+ India’s Top Rated</h3>
             <p>
               {/* Add achievement description here */}
             </p>
@@ -58,7 +58,7 @@ const AchievementsAndServices: React.FC = () => {
               alt="Achievement 5"
               className="achievement-img"
             />
-            <h3>4.5+ India’s Top Rated</h3>
+            <h3>3000+ Professionals</h3>
             <p>
               {/* Add achievement description here */}
             </p>
